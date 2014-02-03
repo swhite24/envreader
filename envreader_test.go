@@ -8,7 +8,7 @@ var keys = []string{ "PATH", "USER" }
 
 func TestRead (t *testing.T) {
 	vals := Read(keys...)
-	if len(vals) != 2 {
+	if len(vals) != len(keys) {
 		t.Errorf("Incorrect number of fields")
 	}
 
