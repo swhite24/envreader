@@ -2,7 +2,7 @@
 
 **envreader** provides a small wrapper for `os.GetEnv` for retrieving a collection of environment variables into a map.
 
-[![Build Status](https://travis-ci.org/swhite24/chirp-bearer.svg?branch=master)](https://travis-ci.org/swhite24/chirp-bearer)
+[![Build Status](https://travis-ci.org/swhite24/envreader.svg?branch=master)](https://travis-ci.org/swhite24/envreader)
 
 ## Install
 ```bash
